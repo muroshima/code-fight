@@ -7,7 +7,7 @@ nokori =0
 a = N//100
 b = N//500
 
-if N//100 == 0:
+if N%100 == 0:
     kazu = N//500
     nokori = N%500 
  #   print(kazu)

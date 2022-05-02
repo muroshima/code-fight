@@ -6,8 +6,9 @@ B = list(map(int,input().split()))
 item = 0
 aaa = 0
 #print(A,B)
+
 for i in range(N):
-     if A[i] >= B[i]:
+     if A[i] > B[i]:
          aaa = 1
      if A[i] < B[i]:
          item = A[i]

@@ -5,6 +5,6 @@ T = str(input())
 #print(S,T)
 
 if S.lower() == T.lower():
-    print("Yes")
+    print("YES")
 else:
-    print("No")  
+    print("NO")  
