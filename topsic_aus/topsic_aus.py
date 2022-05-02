@@ -16,7 +16,6 @@ for u in reversed(range(1,N)):
 
 if count > num:
     print (num)
-else:
+else: 
     print (count)
 
-    

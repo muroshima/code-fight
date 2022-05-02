@@ -11,6 +11,6 @@ def make_divisors(n):
     # divisors.sort()
     return divisors
 
-n = int (input())
+n = int (input())  
 
 

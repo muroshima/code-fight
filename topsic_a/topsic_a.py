@@ -16,3 +16,4 @@ if N//100 == 0:
     print(kazu2 + kazu)
 else:
  print(-1)
+ 

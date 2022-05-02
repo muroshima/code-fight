@@ -4,4 +4,4 @@ S = str(input())
 N = int(input())
 
 box = "a" * N
-print (box + S)
+print (box + S) 

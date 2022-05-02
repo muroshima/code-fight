@@ -9,4 +9,4 @@ for i in range(1, N):
     else:
         box_count += 0
 
-print(box_count+1)
+print(box_count+1)  

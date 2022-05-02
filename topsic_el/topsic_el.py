@@ -11,4 +11,4 @@ for i in range(N):
          aaa = 1
      if A[i] < B[i]:
          item = A[i]
-print(A.index(item)+1)
+print(A.index(item)+1)  

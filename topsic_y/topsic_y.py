@@ -7,4 +7,4 @@ T = str(input())
 if S.lower() == T.lower():
     print("Yes")
 else:
-    print("No")
+    print("No")  
