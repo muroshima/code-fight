@@ -1,16 +1,14 @@
 #約数の総和
 
-def make_divisors(n):
-    divisors = []
-    for i in range(1, int(n**0.5)+1):
-        if n % i == 0:
-            divisors.append(i)
-            if i != n // i:
-                divisors.append(n//i)
+N = int(input())
 
-    # divisors.sort()
-    return divisors
+count = 0
 
-n = int (input())  
+for i in range(1, N + 1):
+    for j in range(1, N + 1):
+       if i % j == 0 :
+         count += j
+
+print(count) 
 
 
