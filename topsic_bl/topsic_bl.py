@@ -110,3 +110,4 @@ for i in word:
     pos=pos+mov+1
     ppos=klist.index(i)
 print(pos)
+
