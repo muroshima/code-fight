@@ -11,7 +11,7 @@ Ai = list(Ai)
 #print(Ai)
 
 if Ai == A:
-     print("Yes")
+     print("YES")
 else:
-     print("No")
+     print("NO") 
   
